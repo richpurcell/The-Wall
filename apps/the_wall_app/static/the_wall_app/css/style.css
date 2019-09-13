@@ -1,0 +1,42 @@
+* {margin: 0px; padding: 0px;}
+div.container {width: 1000px; height: 1200px; }
+div.banner {height: 80px; width: 1000px; border: black solid 2px;}
+h1, a  {display: inline-block; vertical-align: top;}
+div.banner h1 {margin-left: 20px;}
+div.welcome {width: 400px; height: 80px; display: inline-block; }
+div.welcome h4 {margin-left: 100px; margin-left: 200px; display: inline-block;}
+
+h4, a {margin-top:20px;}
+div.this_message {padding-left: 20px;}
+div.banner a {margin-left: 100px;}
+div.message_form {margin-top: 40px; }
+div.message_form button {margin-left: 828px; margin-top: 20px;}
+div.message {padding-top: 20px;}
+div.comment button {margin-left: 775px; margin-top: 20px;}
+div.comment {margin-top: 20px; margin-left: 50px;}
+div.comment_block h6 {padding-top: 20px;}
+div.errors h6 {color: red; font-weight: bold; }
+
+div.delete button {text-decoration: underline; background-color: none; display: inline-block;}
+div.delete button {
+	overflow: visible;
+	width: auto;
+}
+div.delete button.link {
+	font-family: "Verdana" sans-serif;
+	font-size: 1em;
+	text-align: left;
+	color: blue;
+	background: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+div.delete button.link span {
+	text-decoration: underline;
+}
+div.delete button.link:hover span,
+div.delete button.link:focus span {
+	color: black;
+}
